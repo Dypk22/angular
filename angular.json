@@ -25,9 +25,23 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/animate.css",
+              "src/style-magnific-popup.css",
+              "src/style.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/bootstrap-icons.css"              
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/js/custom.js",
+              "src/js/jquery.magnific-popup.min.js",
+              "src/js/jquery.nav.js",
+              "src/js/jquery.scrollTo-min.js",
+              "src/js/plugins.js",
+              "src/js/wow.js"
+            ]
           },
           "configurations": {
             "production": {
